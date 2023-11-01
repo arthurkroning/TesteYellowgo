@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"/>
+
+<html>
+<head>
+    <title>Tela de Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>YellowGO Support System</h1>
+        <form action="login.php" method="post">
+            <div class="form-group">
+                <label for="username">Email:</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <a href="register.php">Registrar novo usuário</a>
+    </div>
+</body>
+</html>
